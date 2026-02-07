@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZARIF Multi Player - Premium</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* প্রিমিয়াম ডাইনামিক ব্যাকগ্রাউন্ড */
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  margin: 0;
+  background: radial-gradient(circle at center, #0f172a 0%, #020617 100%);
+  color: #ffffff;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ব্যাকগ্রাউন্ড স্টারডাস্ট এনিমেশন */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: url('https://www.transparenttextures.com/patterns/stardust.png');
+  opacity: 0.2;
+  z-index: -1;
+  animation: bgScroll 80s linear infinite;
+}
+
+@keyframes bgScroll {
+  from { background-position: 0 0; }
+  to { background-position: 1000px 1000px; }
+}
+
+/* নেভিগেশন মেনু */
+.nav-menu {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(15px);
+  border-bottom: 2px solid #3b82f6;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  overflow-x: auto;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.nav-menu a:hover {
+  background: #ffeb3b;
+  color: #000;
+  transform: translateY(-2px);
+}
+
+/* সেকশন এনিমেশন */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* গ্লাস কার্ড ডিজাইন */
+.section {
+  max-width: 750px;
+  margin: 25px auto;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+h2 { color: #ffeb3b; text-align: center; border-bottom: 1px dashed rgba(255,255,255,0.2); padding-bottom: 10px; }
+
+/* রুল লিস্ট */
+.rule-list { list-style: none; padding: 0; text-align: left; }
+.rule-list li {
+  background: rgba(255, 255, 255, 0.05);
+  margin-bottom: 8px;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border-left: 5px solid #3b82f6;
+  transition: 0.3s;
+}
+.rule-list li:hover { transform: translateX(8px); background: rgba(59, 130, 246, 0.1); }
+
+.highlight { color: #ffeb3b; font-weight: bold; }
+.forbidden { color: #ff6b6b; font-weight: bold; text-decoration: underline; }
+
+/* বাটন স্টাইল */
+.media-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 12px;
+  max-width: 240px;
+  background: linear-gradient(45deg, #ff7675, #6c5ce7);
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.media-btn:hover { transform: scale(1.05); box-shadow: 0 0 15px #6c5ce7; }
+
+.footer-ad {
+  margin-top: 15px;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  border: 1px dashed #00ff9c;
+  text-align: center;
+}
+.footer-ad a { color: #00ff9c; text-decoration: none; font-size: 13px; }
+</style>
+
+<script src="https://pl28301716.effectivegatecpm.com/ea/66/98/ea6698c7227007bfa2ec40e1f53e2f97.js"></script>
+</head>
+
+<body>
+
+<div class="nav-menu">
+  <a href="#rules">গ্রুপ নিয়ম</a>
+  <a href="#game-rules">খেলার রুলস</a>
+  <a href="#trip-time">ট্রিপ টাইম</a>
+  <a href="#notice">নোটিশ</a>
+  <a href="#admin">এডমিন</a>
+  <a href="#media">লিংক</a>
+  <a href="#developer">ডেভেলপার</a>
+</div>
+
+<div style="text-align:center; margin:20px;">
+  <script>
+    atOptions = { 'key' : 'b4163f90ac591880afe2eb689a0972a3', 'format' : 'iframe', 'height' : 50, 'width' : 320, 'params' : {} };
+  </script>
+  <script src="https://www.highperformanceformat.com/b4163f90ac591880afe2eb689a0972a3/invoke.js"></script>
+</div>
+
+<div id="rules" class="section reveal" style="background:linear-gradient(135deg, rgba(26,35,126,0.5), rgba(13,71,161,0.5));">
+<h1 style="text-align:center;color:#ffeb3b;margin-bottom:10px;">🇧🇩 জারিফ মাল্টি প্লেয়ার 🇧🇩</h1>
+<h3 style="text-align:center;color:#ffffff;margin-top:0;">(BUSSID) গ্রুপের নিয়ম</h3>
+<ul class="rule-list">
+    <li>🎮 শুধু <b style="color:#ffeb3b;">BUSSID</b> গেম নিয়ে আলোচনা করা যাবে।</li>
+    <li>🔗 গেম লিংক, মোড, স্কিন, রুট বা ট্রিপ শেয়ার করা যাবে।</li>
+    <li>⏰ সময়মতো মাল্টিপ্লেয়ার ট্রিপে জয়েন করুন, দেরি করলে মিস হবে।</li>
+    <li>🚫 গেমের বাইরে আলোচনা, শুভ সকাল/রাত বা স্ট্যাটাস নিষিদ্ধ।</li>
+    <li>🛑 গালাগালি ও খারাপ ভাষা সম্পূর্ণ নিষিদ্ধ।</li>
+    <li>📢 কোনো গ্রুপ/চ্যানেল প্রমোশন করা যাবে না।</li>
+    <li>⚠️ হ্যাকিং বা চিট ব্যবহার করলে সরাসরি রিমুভ।</li>
+    <li>👨‍💼 সমস্যা হলে অ্যাডমিনকে ইনবক্স করুন।</li>
+    <li>🚌 ট্রিপ চলাকালে ওভারটেক, স্পিড ও রুটের নিয়ম মানুন।</li>
+    <li>❌ নিয়ম না মানলে ওয়ার্নিং ছাড়াই রিমুভ করা হবে।</li>
+</ul>
+<div style="background:#ffeb3b;color:#000;padding:15px;border-radius:15px;margin-top:20px;">
+<h3 style="margin-top:0;text-align:center;">🚫 রাজনৈতিক আলোচনা নিষিদ্ধ</h3>
+<ul style="line-height:1.8;font-size:16px;">
+    <li>🗳️ কোনো রাজনৈতিক আলোচনা, বিতর্ক বা ভোট প্রচার করা যাবে না।</li>
+    <li>⚖️ নিয়ম ভঙ্গ করলে সতর্কীকরণ বা পদক্ষেপ নেওয়া হবে।</li>
+</ul>
+</div>
+<p style="text-align:center;margin-top:20px;font-size:18px;font-weight:bold;color:#ffeb3b;">✨ BUSSID গেমিং জগতে আপনাকে স্বাগতম! ✨</p>
+</div>
+
+<div id="game-rules" class="section reveal" style="border: 2px solid #ff4757; background: #1e1e1e;">
+  <h2 style="color:#ff4757;">খেলার রুলস</h2>
+  <ul class="rule-list">
+    <li>🚫 রুমে অযথা প্রয়োজন ছাড়া মেসেজ করবেন না।</li>
+    <li>⏱️ মাস্টার <span class="highlight">"Ready"</span> বলার পরপরই রেডি দেবেন।</li>
+    <li>🅿️ মাস্টার <span class="highlight">পার্ক (Park)</span> করতে বললে, পাশাপাশি করে গাড়িগুলো সমানভাবে রাখবেন।</li>
+    <li>🚦 মাস্টার <span class="highlight">"Go"</span> না বলার আগে কেউ গাড়ি ছাড়বেন না।</li>
+    <li>🗺️ <span class="highlight">"Next Map Line"</span> বলা হলে লোডিং এর পরবর্তী ম্যাপে গিয়ে বাম পাশে লাইন করবেন।</li>
+    <li>↔️ অযথা লেন পরিবর্তন করবেন না, করলে <span class="highlight">Indicator</span> ব্যবহার করবেন।</li>
+    <li>❌ সকল প্রকার চাপাচাপি, গালা-গালি, হ্যাক বা স্পিড ফাইল ব্যবহার <span class="forbidden">সম্পূর্ণ নিষিদ্ধ</span>।</li>
+    <li>🎥 ভিডিও চলাকালীন সময়ে অবশ্যই <span class="highlight">Depper</span> দিবেন এবং প্রেশার দেওয়া থেকে বিরত থাকুন।</li>
+    <li>📸 টার্মিনালে পৌঁছানোর পর অবশ্যই <span class="highlight">Highest Speed</span> এর স্ক্রিনশট নেবেন।</li>
+  </ul>
+</div>
+
+<div id="trip-time" class="section reveal" style="background:linear-gradient(135deg,#ff6f00,#ff8f00); border:none; max-width:500px;">
+<h2 style="color:#fffde7;">🚌 TRIP TIME 🚌</h2>
+<div style="background:#ffffff;color:#e65100;padding:15px;border-radius:15px;font-size:22px;font-weight:bold; text-align:center;">
+⏰ 10:30 AM <br><br> 🌙 07:30 PM
+</div>
+<p style="margin-top:15px;color:#fffde7; text-align:center;">সময়মতো ট্রিপে জয়েন করুন 🚍</p>
+</div>
+
+<div id="notice" class="section reveal">
+  <h2>নোটিশ বোর্ড</h2>
+  <p>📢 সকল প্লেয়ারদের জানানো যাচ্ছে যে প্রতিদিন নির্ধারিত সময়ে ট্রিপে অংশগ্রহণ করুন। আমরা প্রতিনিয়ত ভার্সন ৪.৩.৪ এ খেলি।</p>
+  <p><b>পাসওয়ার্ড: ABGZ</b></p>
+  <a class="media-btn" href="https://drive.google.com/file/d/1ARxdzsICa9wG636AAUhlRW3ww8GYOCWe/view?usp=drivesdk">Click here to Download APK</a>
+  <a class="media-btn" href="https://drive.google.com/file/d/1zvlg-sPTtI6i50Ks1i3O5-WrFFP4PLoQ/view?usp=drivesdk">Click here to Download OBB</a>
+</div>
+
+<div id="admin" class="section reveal">
+  <h2>এডমিন প্যানেল</h2>
+  <p>👤 মোঃ জারিফ — হেড এডমিন (চট্টগ্রাম, বাংলাদেশ) <br>📞 +880 1615-329306</p>
+  <p>👤 মোঃ নূর আজম রাশেদ — সেকেন্ড এডমিন (বগুড়া, বাংলাদেশ) <br>📞 +880 1738-348181</p>
+  <p>👤 মোঃ রাকিবুল ইসলাম — মাস্টার (দেবীগঞ্জ, বাংলাদেশ) <br>📞 +880 1339-340087</p>
+  <p>👤 BD BUS LOVER ATIK — ওয়েব ডেভেলপার (লামা, বান্দরবান) <br>📞 ০১৮২৭৪০৪২৬৫</p>
+</div>
+
+<div class="section reveal">
+  <h2>আবেদন ফরম</h2>
+  <a class="media-btn" style="background:#22c55e;" href="https://docs.google.com/forms/d/e/1FAIpQLSf8upmH2GkKey98TafVOwP6F_AOL6SswxA76kXULntjvZdTUw/viewform?usp=header" target="_blank">আবেদন করতে ক্লিক করুন</a>
+</div>
+
+<div class="section reveal">
+  <h2>এক্টিভ প্লেয়ার</h2>
+  <p>মোঃ জারিফ | মোঃ নূর আজম রাশেদ | মোঃ রাকিবুল ইসলাম | মোঃ আতিকুর রহমান | মোঃ আরিফ হাসান | মোঃ হাবিব খান</p>
+</div>
+
+<div style="text-align:center; margin:20px;">
+  <script async="async" data-cfasync="false" src="https://pl28320363.effectivegatecpm.com/8d3772de8a11e39dbb8301225e76305b/invoke.js"></script>
+  <div id="container-8d3772de8a11e39dbb8301225e76305b"></div>
+</div>
+
+<div id="media" class="section reveal">
+  <h2>গ্রুপ মিডিয়া লিংক</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+    <a class="media-btn" style="background:#1877f2; margin:0; width:120px;" href="https://www.facebook.com/share/g/18c6S6RSaD/">Facebook</a>
+    <a class="media-btn" style="background:#0088cc; margin:0; width:120px;" href="https://t.me/+b4zVS-AIJW40MTA1">Telegram</a>
+    <a class="media-btn" style="background:#ff0000; margin:0; width:120px;" href="https://www.youtube.com/@Jarifjeem.jarifjeem">YouTube</a>
+    <a class="media-btn" style="background:#5865F2; margin:0; width:120px;" href="https://discord.gg/r4sM2HK4R" target="_blank">Discord</a>
+  </div>
+</div>
+
+<div id="developer" class="section reveal" style="background:#0f172a; color:white; border-top: 3px solid #ffeb3b;">
+  <h2>ওয়েব ডেভেলপার পরিচয় পত্র</h2>
+  <p>
+    👤 <b>নাম:</b> মোঃ আতিকুর রহমান<br>
+    🎬 <b>ইউটিউব:</b> BDBUSLOVERATIK<br>
+    🌍 <b>ঠিকানা:</b> লামা, বান্দরবান
+  </p>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 15px;">
+    <a class="media-btn" style="width:110px; font-size:12px; margin:0;" href="https://youtube.com/@bdbusloveratik?si=IBs85WqaoJufox3g" target="_blank">YouTube</a>
+    <a class="media-btn" style="width:110px; font-size:12px; margin:0;" href="https://www.facebook.com/share/17yjUhciHE/" target="_blank">Facebook</a>
+    <a class="media-btn" style="width:110px; font-size:12px; margin:0;" href="https://t.me/bdbusloveratik65" target="_blank">Telegram</a>
+    <a class="media-btn" style="width:110px; font-size:12px; margin:0;" href="https://bdbusloveratik.blogspot.com/?m=1" target="_blank">Website</a>
+  </div>
+  <p style="margin-top:20px; font-size:12px; opacity:0.6; text-align:center;">
+     2026 Leader Parvez Akhanda — Atikur Rahaman Monna 
+  </p>
+</div>
+
+<div style="text-align:center; margin:20px;">
+  <script>
+    atOptions = { 'key' : '871f27e1a6214462c2bf0b49c9350d84', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+  </script>
+  <script src="https://www.highperformanceformat.com/871f27e1a6214462c2bf0b49c9350d84/invoke.js"></script>
+</div>
+
+<div style="text-align:center; margin:20px;">
+  <script>
+    atOptions = { 'key' : '79bde2cf0d2edbb63ece7c8f9828bf0c', 'format' : 'iframe', 'height' : 300, 'width' : 160, 'params' : {} };
+  </script>
+  <script src="https://www.highperformanceformat.com/79bde2cf0d2edbb63ece7c8f9828bf0c/invoke.js"></script>
+</div>
+
+<script>
+// স্ক্রল এনিমেশন
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    if (elementTop < windowHeight - 100) { reveals[i].classList.add("active"); }
+  }
+}
+window.addEventListener("scroll", reveal);
+window.onload = reveal;
+
+// স্পন্সর লিংক স্ক্রিপ্ট
+const adLink = "https://www.effectivegatecpm.com/crp97si1?key=91bba0761308dca6c89e4b9b8d04b787";
+document.querySelectorAll(".section").forEach(sec=>{
+  const adBox = document.createElement("div");
+  adBox.className = "footer-ad";
+  adBox.innerHTML = `<a href="${adLink}" target="_blank">👉 স্পন্সর লিংক ওপেন করতে ক্লিক করুন</a>`;
+  sec.appendChild(adBox);
+});
+</script>
+
+</body>
+</html>
